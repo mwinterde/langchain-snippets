@@ -1,0 +1,13 @@
+{
+    "input_variables": [
+        "sentence",
+        "source_language",
+        "target_language"
+    ],
+    "output_parser": null,
+    "partial_variables": {},
+    "template": "Translate the following sentence from {source_language} to {target_language}:\n{sentence}",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
